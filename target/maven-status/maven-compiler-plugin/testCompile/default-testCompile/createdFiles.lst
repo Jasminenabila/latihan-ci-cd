@@ -1,0 +1,13 @@
+starter/CucumberTestSuite.class
+starter/user/PutFailed.class
+starter/user/Put.class
+starter/user/DeleteFailed.class
+starter/user/GetList.class
+starter/user/GetFailed.class
+starter/user/Get.class
+starter/user/Post.class
+starter/stepdefinitions/UserSteps.class
+starter/user/GetFailedDetailID.class
+starter/stepdefinitions/UserStepsFailed.class
+starter/user/Delete.class
+starter/user/PostFailed.class
