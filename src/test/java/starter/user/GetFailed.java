@@ -11,7 +11,7 @@ public class GetFailed {
     protected static String url = "https://jsonplaceholder.typicode.com/";
     @Step("user set GET endpoints failed")
     public String setGetEndpointsFailed(){
-        return url + "postzzz";
+        return url + "postzzz12345";
     }
     @Step("user send GET HTTP request")
     public void getHttpRequestFailed(){
