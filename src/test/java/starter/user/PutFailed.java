@@ -20,7 +20,7 @@ public class PutFailed {
     @Step("user send PUT HTTP request update userid not found is failed")
     public void sendPutUserIdNotFound() {
         JSONObject requestBody = new JSONObject();
-        requestBody.put("title", "Tinkerbell");
+        requestBody.put("title", "Jasmine Nabila");
         requestBody.put("body", "Adventure, Friendship, Love");
         requestBody.put("userId", "104");
         requestBody.put("id", "100");
