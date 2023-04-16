@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="User #2" time="4.362" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="User" time="7.283" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/jasmine/Downloads/alterra-restAssured/target/surefire 2023-04-14T20-41-58_386-jvmRun1 surefire12219934913118872247tmp surefire_014461113102677507430tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/jasmine/Downloads/alterra-restAssured/target/surefire 2023-04-16T09-06-52_431-jvmRun1 surefire13274205655492267913tmp surefire_09391928171620313277tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/jasmine/Downloads/alterra-restAssured/target/test-classes:/Users/jasmine/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/jasmine/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/jasmine/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-core/2.4.51/serenity-core-2.4.51.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-model/2.4.51/serenity-model-2.4.51.jar:/Users/jasmine/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/Users/jasmine/.m2/repository/commons-net/commons-net/3.6/commons-net-3.6.jar:/Users/jasmine/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/Users/jasmine/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/jasmine/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/jasmine/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/jasmine/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/Users/jasmine/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/jasmine/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/jasmine/.m2/repository/com/google/inject/guice/5.0.1/guice-5.0.1.jar:/Users/jasmine/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/jasmine/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/jasmine/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/jasmine/.m2/repository/com/thoughtworks/xstream/xstream/1.4.17/xstream-1.4.17.jar:/Users/jasmine/.m2/repository/io/github/x-stream/mxparser/1.2.1/mxparser-1.2.1.jar:/Users/jasmine/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-core/6.10.2/cucumber-core-6.10.2.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-gherkin/6.10.2/cucumber-gherkin-6.10.2.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.2/cucumber-gherkin-messages-6.10.2.jar:/Users/jasmine/.m2/repository/io/cucumber/messages/14.0.1/messages-14.0.1.jar:/Users/jasmine/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-plugin/6.10.2/cucumber-plugin-6.10.2.jar:/Users/jasmine/.m2/repository/io/cucumber/docstring/6.10.2/docstring-6.10.2.jar:/Users/jasmine/.m2/repository/io/cucumber/html-formatter/12.0.0/html-formatter-12.0.0.jar:/Users/jasmine/.m2/repository/io/cucumber/create-meta/3.0.0/create-meta-3.0.0.jar:/Users/jasmine/.m2/repository/com/typesafe/config/1.3.1/config-1.3.1.jar:/Users/jasmine/.m2/repository/org/imgscalr/imgscalr-lib/4.2/imgscalr-lib-4.2.jar:/Users/jasmine/.m2/repository/org/awaitility/awaitility/4.0.3/awaitility-4.0.3.jar:/Users/jasmine/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/jasmine/.m2/repository/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12.jar:/Users/jasmine/.m2/repository/org/asciidoctor/asciidoctorj/2.5.1/asciidoctorj-2.5.1.jar:/Users/jasmine/.m2/repository/org/asciidoctor/asciidoctorj-api/2.5.1/asciidoctorj-api-2.5.1.jar:/Users/jasmine/.m2/repository/org/jruby/jruby/9.2.17.0/jruby-9.2.17.0.jar:/Users/jasmine/.m2/repository/org/jruby/jruby-core/9.2.17.0/jruby-core-9.2.17.0.jar:/Users/jasmine/.m2/repository/com/github/jnr/jnr-netdb/1.2.0/jnr-netdb-1.2.0.jar:/Users/jasmine/.m2/repository/com/github/jnr/jnr-enxio/0.32.3/jnr-enxio-0.32.3.jar:/Users/jasmine/.m2/repository/com/github/jnr/jnr-unixsocket/0.38.5/jnr-unixsocket-0.38.5.jar:/Users/jasmine/.m2/repository/com/github/jnr/jnr-posix/3.1.4/jnr-posix-3.1.4.jar:/Users/jasmine/.m2/repository/com/github/jnr/jnr-constants/0.10.1/jnr-constants-0.10.1.jar:/Users/jasmine/.m2/repository/com/github/jnr/jffi/1.3.1/jffi-1.3.1.jar:/Users/jasmine/.m2/repository/com/github/jnr/jffi/1.3.1/jffi-1.3.1-native.jar:/Users/jasmine/.m2/repository/org/jruby/joni/joni/2.1.31/joni-2.1.31.jar:/Users/jasmine/.m2/repository/org/jruby/jcodings/jcodings/1.0.46/jcodings-1.0.46.jar:/Users/jasmine/.m2/repository/org/jruby/dirgra/0.3/dirgra-0.3.jar:/Users/jasmine/.m2/repository/com/headius/invokebinder/1.11/invokebinder-1.11.jar:/Users/jasmine/.m2/repository/com/headius/options/1.4/options-1.4.jar:/Users/jasmine/.m2/repository/com/jcraft/jzlib/1.1.3/jzlib-1.1.3.jar:/Users/jasmine/.m2/repository/com/martiansoftware/nailgun-server/0.9.1/nailgun-server-0.9.1.jar:/Users/jasmine/.m2/repository/com/headius/backport9/1.8/backport9-1.8.jar:/Users/jasmine/.m2/repository/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar:/Users/jasmine/.m2/repository/org/jruby/jruby-stdlib/9.2.17.0/jruby-stdlib-9.2.17.0.jar:/Users/jasmine/.m2/repository/net/bytebuddy/byte-buddy/1.11.1/byte-buddy-1.11.1.jar:/Users/jasmine/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.1/byte-buddy-agent-1.11.1.jar:/Users/jasmine/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-reports/2.4.51/serenity-reports-2.4.51.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-stats/2.4.51/serenity-stats-2.4.51.jar:/Users/jasmine/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.5.0/kotlin-stdlib-1.5.0.jar:/Users/jasmine/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/jasmine/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.0/kotlin-stdlib-common-1.5.0.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-reports-configuration/2.4.51/serenity-reports-configuration-2.4.51.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-all/0.34.30/flexmark-all-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark/0.34.30/flexmark-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-abbreviation/0.34.30/flexmark-ext-abbreviation-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-admonition/0.34.30/flexmark-ext-admonition-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.34.30/flexmark-ext-anchorlink-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.34.30/flexmark-ext-aside-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-attributes/0.34.30/flexmark-ext-attributes-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.34.30/flexmark-ext-autolink-0.34.30.jar:/Users/jasmine/.m2/repository/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.34.30/flexmark-ext-definition-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.34.30/flexmark-ext-emoji-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-enumerated-reference/0.34.30/flexmark-ext-enumerated-reference-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.34.30/flexmark-ext-escaped-character-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.34.30/flexmark-ext-footnotes-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.34.30/flexmark-ext-gfm-issues-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.34.30/flexmark-ext-gfm-strikethrough-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.34.30/flexmark-ext-gfm-tables-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.34.30/flexmark-ext-gfm-tasklist-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-users/0.34.30/flexmark-ext-gfm-users-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-gitlab/0.34.30/flexmark-ext-gitlab-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.34.30/flexmark-ext-jekyll-front-matter-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.34.30/flexmark-ext-jekyll-tag-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-media-tags/0.34.30/flexmark-ext-media-tags-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.34.30/flexmark-test-util-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.34.30/flexmark-ext-ins-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.34.30/flexmark-ext-xwiki-macros-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.34.30/flexmark-ext-superscript-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.34.30/flexmark-ext-tables-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.34.30/flexmark-ext-toc-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.34.30/flexmark-ext-typographic-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.34.30/flexmark-ext-wikilink-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.34.30/flexmark-ext-yaml-front-matter-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.34.30/flexmark-ext-youtube-embedded-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.34.30/flexmark-formatter-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.34.30/flexmark-html-parser-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.34.30/flexmark-jira-converter-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.34.30/flexmark-pdf-converter-0.34.30.jar:/Users/jasmine/.m2/repository/com/openhtmltopdf/openhtmltopdf-core/0.0.1-RC13/openhtmltopdf-core-0.0.1-RC13.jar:/Users/jasmine/.m2/repository/com/openhtmltopdf/openhtmltopdf-pdfbox/0.0.1-RC13/openhtmltopdf-pdfbox-0.0.1-RC13.jar:/Users/jasmine/.m2/repository/org/apache/pdfbox/pdfbox/2.0.8/pdfbox-2.0.8.jar:/Users/jasmine/.m2/repository/org/apache/pdfbox/fontbox/2.0.8/fontbox-2.0.8.jar:/Users/jasmine/.m2/repository/org/apache/pdfbox/xmpbox/2.0.8/xmpbox-2.0.8.jar:/Users/jasmine/.m2/repository/de/rototor/pdfbox/graphics2d/0.12/graphics2d-0.12.jar:/Users/jasmine/.m2/repository/com/openhtmltopdf/openhtmltopdf-rtl-support/0.0.1-RC13/openhtmltopdf-rtl-support-0.0.1-RC13.jar:/Users/jasmine/.m2/repository/com/ibm/icu/icu4j/59.1/icu4j-59.1.jar:/Users/jasmine/.m2/repository/com/openhtmltopdf/openhtmltopdf-jsoup-dom-converter/0.0.1-RC13/openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.34.30/flexmark-profile-pegdown-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-util/0.34.30/flexmark-util-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.30/flexmark-youtrack-converter-0.34.30.jar:/Users/jasmine/.m2/repository/es/nitaur/markdown/txtmark/0.16/txtmark-0.16.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-report-resources/2.4.51/serenity-report-resources-2.4.51.jar:/Users/jasmine/.m2/repository/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar:/Users/jasmine/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.4/jackson-core-2.12.4.jar:/Users/jasmine/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.4/jackson-databind-2.12.4.jar:/Users/jasmine/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.4/jackson-annotations-2.12.4.jar:/Users/jasmine/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/jasmine/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/jasmine/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/jasmine/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jasmine/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/jasmine/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/jasmine/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/jasmine/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/jasmine/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/jasmine/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.47.1/htmlunit-2.47.1.jar:/Users/jasmine/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/jasmine/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/jasmine/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.47.0/htmlunit-core-js-2.47.0.jar:/Users/jasmine/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.47.1/neko-htmlunit-2.47.1.jar:/Users/jasmine/.m2/repository/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.jar:/Users/jasmine/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/jasmine/.m2/repository/net/sourceforge/htmlunit/htmlunit-cssparser/1.7.0/htmlunit-cssparser-1.7.0.jar:/Users/jasmine/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/jasmine/.m2/repository/com/shapesecurity/salvation2/3.0.0/salvation2-3.0.0.jar:/Users/jasmine/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.36.v20210114/websocket-client-9.4.36.v20210114.jar:/Users/jasmine/.m2/repository/org/eclipse/jetty/jetty-client/9.4.36.v20210114/jetty-client-9.4.36.v20210114.jar:/Users/jasmine/.m2/repository/org/eclipse/jetty/jetty-http/9.4.36.v20210114/jetty-http-9.4.36.v20210114.jar:/Users/jasmine/.m2/repository/org/eclipse/jetty/jetty-util/9.4.36.v20210114/jetty-util-9.4.36.v20210114.jar:/Users/jasmine/.m2/repository/org/eclipse/jetty/jetty-io/9.4.36.v20210114/jetty-io-9.4.36.v20210114.jar:/Users/jasmine/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.36.v20210114/websocket-common-9.4.36.v20210114.jar:/Users/jasmine/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.36.v20210114/websocket-api-9.4.36.v20210114.jar:/Users/jasmine/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.47.1/htmlunit-driver-2.47.1.jar:/Users/jasmine/.m2/repository/com/codeborne/phantomjsdriver/1.4.4/phantomjsdriver-1.4.4.jar:/Users/jasmine/.m2/repository/io/appium/java-client/7.5.1/java-client-7.5.1.jar:/Users/jasmine/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/jasmine/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/jasmine/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/jasmine/.m2/repository/net/sf/opencsv/opencsv/2.0/opencsv-2.0.jar:/Users/jasmine/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/jasmine/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/jasmine/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/jasmine/.m2/repository/org/fluentlenium/fluentlenium-core/0.10.2/fluentlenium-core-0.10.2.jar:/Users/jasmine/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.1/webdrivermanager-4.4.1.jar:/Users/jasmine/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/jasmine/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/jasmine/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/jasmine/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/jasmine/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/jasmine/.m2/repository/com/jhlabs/filters/2.0.235/filters-2.0.235.jar:/Users/jasmine/.m2/repository/com/paulhammant/ngwebdriver/1.1.5/ngwebdriver-1.1.5.jar:/Users/jasmine/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar:/Users/jasmine/.m2/repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar:/Users/jasmine/.m2/repository/org/mockito/mockito-core/3.3.3/mockito-core-3.3.3.jar:/Users/jasmine/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/jasmine/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/jasmine/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar:/Users/jasmine/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/jasmine/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/jasmine/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-junit/2.4.51/serenity-junit-2.4.51.jar:/Users/jasmine/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-rest-assured/2.4.51/serenity-rest-assured-2.4.51.jar:/Users/jasmine/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/jasmine/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-screenplay/2.4.51/serenity-screenplay-2.4.51.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-screenplay-rest/2.4.51/serenity-screenplay-rest-2.4.51.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-cucumber6/2.4.51/serenity-cucumber6-2.4.51.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-screenplay-webdriver/2.4.51/serenity-screenplay-webdriver-2.4.51.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-java/6.10.4/cucumber-java-6.10.4.jar:/Users/jasmine/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-junit/6.10.4/cucumber-junit-6.10.4.jar:/Users/jasmine/.m2/repository/io/cucumber/datatable-matchers/3.4.0/datatable-matchers-3.4.0.jar:/Users/jasmine/.m2/repository/io/cucumber/datatable/3.4.0/datatable-3.4.0.jar:/Users/jasmine/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/jasmine/.m2/repository/org/apache/commons/commons-csv/1.5/commons-csv-1.5.jar:/Users/jasmine/.m2/repository/io/rest-assured/rest-assured/4.3.2/rest-assured-4.3.2.jar:/Users/jasmine/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/jasmine/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/jasmine/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/jasmine/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/jasmine/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/jasmine/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/jasmine/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/jasmine/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/jasmine/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/jasmine/.m2/repository/org/codehaus/groovy/groovy/3.0.6/groovy-3.0.6.jar:/Users/jasmine/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.6/groovy-xml-3.0.6.jar:/Users/jasmine/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/jasmine/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jasmine/.m2/repository/org/assertj/assertj-core/3.6.2/assertj-core-3.6.2.jar:/Users/jasmine/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:"/>
@@ -56,429 +56,337 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="GET Negative Case - As admin user have be able to get list user, but can&apos;t be access" classname="User #2" time="0.715">
-    <system-out><![CDATA[
+  <testcase name="GET - As admin I have be able to get detail user" classname="User" time="4.89">
+    <system-out><![CDATA[09:06:55.155 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/User.feature
 
-11
+09:06:55.159 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/User.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+
+09:06:55.341 [pool-2-thread-1] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+
+09:06:55.344 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@a6b8f2f
+
+09:06:55.348 [pool-2-thread-1] INFO  - Test Suite Started: User
+
+
+
+5
  Scenarios (
-&amp#27;[32m11 passed&amp#27;[0m
+&amp#27;[32m5 passed&amp#27;[0m
 )
 
-40
+19
  Steps (
-&amp#27;[32m40 passed&amp#27;[0m
+&amp#27;[32m19 passed&amp#27;[0m
 )
 
 0m
-11.199s
+7.501s
 
 
 
 
 
-20:42:12.139 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+09:07:02.655 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
 
-20:42:12.208 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+09:07:02.733 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
 
-20:42:12.222 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 10 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@461e0261
+09:07:02.748 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 5 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@1455231
 
-20:42:12.223 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET - As admin I have be able to get detail user
+09:07:02.749 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET - As admin I have be able to get list user
 
-20:42:12.223 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:POST - As admin I have be able to create new user
+09:07:02.749 [pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@1455231: Generating report for test outcome: User:GET - As admin I have be able to get list user
 
-20:42:12.223 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:PUT - As admin i have be able to update existing user
+09:07:02.749 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:POST - As admin I have be able to create new user
 
-20:42:12.223 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET - As admin I have be able to get list user
+09:07:02.749 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:PUT - As admin i have be able to update existing user
 
-20:42:12.223 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@461e0261: Generating report for test outcome: User:GET - As admin I have be able to get detail user
+09:07:02.749 [pool-2-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@1455231: Generating report for test outcome: User:PUT - As admin i have be able to update existing user
 
-20:42:12.223 [pool-2-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@461e0261: Generating report for test outcome: User:POST - As admin I have be able to create new user
+09:07:02.749 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET - As admin I have be able to get detail user
 
-20:42:12.223 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET Negative Case - As admin user have be able to get list user, but can't be access
+09:07:02.749 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:DELETE - As admin i have be able to delete existing user
 
-20:42:12.223 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:DELETE - As admin i have be able to delete existing user
+09:07:02.749 [pool-2-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@1455231: Generating report for test outcome: User:POST - As admin I have be able to create new user
 
-20:42:12.223 [pool-2-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@461e0261: Generating report for test outcome: User:PUT - As admin i have be able to update existing user
+09:07:02.749 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@1455231: Generating report for test outcome: User:GET - As admin I have be able to get detail user
 
-20:42:12.223 [pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@461e0261: Generating report for test outcome: User:GET - As admin I have be able to get list user
+09:07:02.750 [pool-2-thread-5] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@1455231: Generating report for test outcome: User:DELETE - As admin i have be able to delete existing user
 
-20:42:12.224 [pool-2-thread-6] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@461e0261: Generating report for test outcome: User:GET Negative Case - As admin user have be able to get list user, but can't be access
+09:07:02.760 [pool-2-thread-3] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for POST - As admin I have be able to create new user to file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/ca3b49574a0e8709a8b22cd67d18c629b8cbaaa3411cf6c59dd8c6fec0bb15f6.json (using temp file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/ca3b49574a0e8709a8b22cd67d18c629b8cbaaa3411cf6c59dd8c6fec0bb15f6.json51197e70-c56f-42bf-9fad-e0872806bb7f)
 
-20:42:12.224 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:Get Negative Case - As admin user have be able to get detail user, but can't be access
+09:07:02.760 [pool-2-thread-4] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for PUT - As admin i have be able to update existing user to file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/a857aa067fbface075b009a4467332d49e5264a230119cd37ba15ea4f4a9ad35.json (using temp file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/a857aa067fbface075b009a4467332d49e5264a230119cd37ba15ea4f4a9ad35.json37cb3520-c2e4-4729-9b67-066a2148c2c3)
 
-20:42:12.224 [pool-2-thread-5] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@461e0261: Generating report for test outcome: User:DELETE - As admin i have be able to delete existing user
+09:07:02.760 [pool-2-thread-2] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for GET - As admin I have be able to get list user to file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/ea8c4d599280758bd9353d9b1a9bcd7b1400497a7af18e729f0004108665bfbe.json (using temp file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/ea8c4d599280758bd9353d9b1a9bcd7b1400497a7af18e729f0004108665bfbe.json6233896d-33b2-4a82-a9b5-178ec2d37941)
 
-20:42:12.224 [pool-2-thread-9] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:Put Negative Case - As admin user have be able to update put user with id not found, shouldn't be access
+09:07:02.760 [pool-2-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for GET - As admin I have be able to get detail user to file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/8c9bde6d0dbc4dadc4e5510aeaf6c435d15acae6bd58afcfbce04fb52b357cc6.json (using temp file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/8c9bde6d0dbc4dadc4e5510aeaf6c435d15acae6bd58afcfbce04fb52b357cc6.json022c20cf-c5c6-43cb-b25e-68f117fb5ebf)
 
-20:42:12.224 [pool-2-thread-9] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@461e0261: Generating report for test outcome: User:Put Negative Case - As admin user have be able to update put user with id not found, shouldn't be access
+09:07:02.760 [pool-2-thread-5] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for DELETE - As admin i have be able to delete existing user to file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/235a6186869cd19f19f97f33acc4f227ad47fdb2295409780ee28940954202ad.json (using temp file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/235a6186869cd19f19f97f33acc4f227ad47fdb2295409780ee28940954202ad.jsonb4f83f35-502a-4574-8a1e-aa05a5f0bb8f)
 
-20:42:12.224 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:Post Negative Case - As admin user have be able to submit post user with url invalid, shouldn't be access
+09:07:02.821 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:DELETE - As admin i have be able to delete existing user done
 
-20:42:12.224 [pool-2-thread-7] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@461e0261: Generating report for test outcome: User:Get Negative Case - As admin user have be able to get detail user, but can't be access
+09:07:02.821 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET - As admin I have be able to get detail user done
 
-20:42:12.224 [pool-2-thread-10] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:Delete Negative Case - As admin user have be able to delete user with with url invalid, shouldn't be access
+09:07:02.822 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:POST - As admin I have be able to create new user done
 
-20:42:12.224 [pool-2-thread-8] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@461e0261: Generating report for test outcome: User:Post Negative Case - As admin user have be able to submit post user with url invalid, shouldn't be access
+09:07:02.822 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:PUT - As admin i have be able to update existing user done
 
-20:42:12.225 [pool-2-thread-10] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@461e0261: Generating report for test outcome: User:Delete Negative Case - As admin user have be able to delete user with with url invalid, shouldn't be access
+09:07:02.823 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET - As admin I have be able to get list user done
 
-20:42:12.234 [pool-2-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for GET - As admin I have be able to get detail user to file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/8c9bde6d0dbc4dadc4e5510aeaf6c435d15acae6bd58afcfbce04fb52b357cc6.json (using temp file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/8c9bde6d0dbc4dadc4e5510aeaf6c435d15acae6bd58afcfbce04fb52b357cc6.jsoncd3d5d7d-1993-473c-ac78-c72fa26a617a)
+09:07:02.823 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
 
-20:42:12.234 [pool-2-thread-10] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Delete Negative Case - As admin user have be able to delete user with with url invalid, shouldn't be access to file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/7e470ea6687403de6623d2787d395681e9493e680cbb9bf1cc3c6aeec4d41e68.json (using temp file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/7e470ea6687403de6623d2787d395681e9493e680cbb9bf1cc3c6aeec4d41e68.json005ea7c5-3657-4a05-b6e8-89d671b7a1ee)
+09:07:02.823 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 75 ms
 
-20:42:12.234 [pool-2-thread-6] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for GET Negative Case - As admin user have be able to get list user, but can't be access to file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/a4877674256890b255f5baed1c18c1a7466061399b5d3d0a316af50835e903fa.json (using temp file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/a4877674256890b255f5baed1c18c1a7466061399b5d3d0a316af50835e903fa.json42f29ff0-0280-48ee-9061-97b0f8627665)
+09:07:02.823 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 5 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@74f90c39
 
-20:42:12.234 [pool-2-thread-5] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for DELETE - As admin i have be able to delete existing user to file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/235a6186869cd19f19f97f33acc4f227ad47fdb2295409780ee28940954202ad.json (using temp file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/235a6186869cd19f19f97f33acc4f227ad47fdb2295409780ee28940954202ad.jsonb8f7d8a6-f74a-479e-930f-60d8b7dcfbab)
+09:07:02.823 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET - As admin I have be able to get detail user
 
-20:42:12.234 [pool-2-thread-7] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get Negative Case - As admin user have be able to get detail user, but can't be access to file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/2cccc885ed72ffc87d23136d6bfb6964b77086c451acf31050177695d5d8967f.json (using temp file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/2cccc885ed72ffc87d23136d6bfb6964b77086c451acf31050177695d5d8967f.jsond1c660b9-85ee-40e8-80db-68239cf1dbbd)
+09:07:02.823 [pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@74f90c39: Generating report for test outcome: User:GET - As admin I have be able to get detail user
 
-20:42:12.234 [pool-2-thread-8] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Post Negative Case - As admin user have be able to submit post user with url invalid, shouldn't be access to file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/014eca3a9708e2cf140ebc1460de1a64975808e81671fab8cc48414f10aa3116.json (using temp file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/014eca3a9708e2cf140ebc1460de1a64975808e81671fab8cc48414f10aa3116.json6ed25942-9ffc-498b-a925-5719e31f38f6)
+09:07:02.824 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET - As admin I have be able to get list user
 
-20:42:12.234 [pool-2-thread-4] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for PUT - As admin i have be able to update existing user to file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/a857aa067fbface075b009a4467332d49e5264a230119cd37ba15ea4f4a9ad35.json (using temp file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/a857aa067fbface075b009a4467332d49e5264a230119cd37ba15ea4f4a9ad35.jsonfe92b473-e5da-4fcf-bd08-5bc20290a0c0)
+09:07:02.824 [pool-3-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@74f90c39: Generating report for test outcome: User:GET - As admin I have be able to get list user
 
-20:42:12.235 [pool-2-thread-9] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Put Negative Case - As admin user have be able to update put user with id not found, shouldn't be access to file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/6913d7677bcce94e610d3c19ae53b630e8917a20fa0e27a1e10fd357129a487c.json (using temp file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/6913d7677bcce94e610d3c19ae53b630e8917a20fa0e27a1e10fd357129a487c.jsonb9086f7f-8818-48fd-9715-488c7698f33f)
+09:07:02.824 [pool-3-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:POST - As admin I have be able to create new user
 
-20:42:12.235 [pool-2-thread-2] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for GET - As admin I have be able to get list user to file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/ea8c4d599280758bd9353d9b1a9bcd7b1400497a7af18e729f0004108665bfbe.json (using temp file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/ea8c4d599280758bd9353d9b1a9bcd7b1400497a7af18e729f0004108665bfbe.json50c4ab4a-7e2e-4a34-aec4-31a25330a656)
+09:07:02.824 [pool-3-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:PUT - As admin i have be able to update existing user
 
-20:42:12.235 [pool-2-thread-3] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for POST - As admin I have be able to create new user to file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/ca3b49574a0e8709a8b22cd67d18c629b8cbaaa3411cf6c59dd8c6fec0bb15f6.json (using temp file /Users/jasmine/Downloads/alterra-restAssured/target/site/serenity/ca3b49574a0e8709a8b22cd67d18c629b8cbaaa3411cf6c59dd8c6fec0bb15f6.json97095a05-a34b-4dd7-83cf-069658693ac8)
+09:07:02.824 [pool-3-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@74f90c39: Generating report for test outcome: User:POST - As admin I have be able to create new user
 
-20:42:12.286 [pool-2-thread-10] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:Delete Negative Case - As admin user have be able to delete user with with url invalid, shouldn't be access done
+09:07:02.824 [pool-3-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:DELETE - As admin i have be able to delete existing user
 
-20:42:12.286 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:Get Negative Case - As admin user have be able to get detail user, but can't be access done
+09:07:02.824 [pool-3-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@74f90c39: Generating report for test outcome: User:PUT - As admin i have be able to update existing user
 
-20:42:12.286 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:Post Negative Case - As admin user have be able to submit post user with url invalid, shouldn't be access done
+09:07:02.824 [pool-3-thread-5] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@74f90c39: Generating report for test outcome: User:DELETE - As admin i have be able to delete existing user
 
-20:42:12.287 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET - As admin I have be able to get detail user done
+09:07:03.427 [pool-3-thread-5] DEBUG serenity.reporting - Generating report in 235a6186869cd19f19f97f33acc4f227ad47fdb2295409780ee28940954202ad.html
 
-20:42:12.287 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:POST - As admin I have be able to create new user done
+09:07:03.427 [pool-3-thread-2] DEBUG serenity.reporting - Generating report in ea8c4d599280758bd9353d9b1a9bcd7b1400497a7af18e729f0004108665bfbe.html
 
-20:42:12.288 [pool-2-thread-9] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:Put Negative Case - As admin user have be able to update put user with id not found, shouldn't be access done
+09:07:03.427 [pool-3-thread-4] DEBUG serenity.reporting - Generating report in a857aa067fbface075b009a4467332d49e5264a230119cd37ba15ea4f4a9ad35.html
 
-20:42:12.288 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:DELETE - As admin i have be able to delete existing user done
+09:07:03.427 [pool-3-thread-3] DEBUG serenity.reporting - Generating report in ca3b49574a0e8709a8b22cd67d18c629b8cbaaa3411cf6c59dd8c6fec0bb15f6.html
 
-20:42:12.289 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:PUT - As admin i have be able to update existing user done
+09:07:03.427 [pool-3-thread-1] DEBUG serenity.reporting - Generating report in 8c9bde6d0dbc4dadc4e5510aeaf6c435d15acae6bd58afcfbce04fb52b357cc6.html
 
-20:42:12.289 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET Negative Case - As admin user have be able to get list user, but can't be access done
+09:07:03.850 [pool-3-thread-5] DEBUG serenity.reporting - Generated report 235a6186869cd19f19f97f33acc4f227ad47fdb2295409780ee28940954202ad.html in 423 ms
 
-20:42:12.291 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET - As admin I have be able to get list user done
+09:07:03.850 [pool-3-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:DELETE - As admin i have be able to delete existing user done
 
-20:42:12.292 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+09:07:03.851 [pool-3-thread-4] DEBUG serenity.reporting - Generated report a857aa067fbface075b009a4467332d49e5264a230119cd37ba15ea4f4a9ad35.html in 424 ms
 
-20:42:12.292 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 70 ms
+09:07:03.851 [pool-3-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:PUT - As admin i have be able to update existing user done
 
-20:42:12.292 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 10 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@8df3dfc
+09:07:03.851 [pool-3-thread-1] DEBUG serenity.reporting - Generated report 8c9bde6d0dbc4dadc4e5510aeaf6c435d15acae6bd58afcfbce04fb52b357cc6.html in 424 ms
 
-20:42:12.292 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET - As admin I have be able to get detail user
+09:07:03.851 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET - As admin I have be able to get detail user done
 
-20:42:12.292 [pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@8df3dfc: Generating report for test outcome: User:GET - As admin I have be able to get detail user
+09:07:03.851 [pool-3-thread-3] DEBUG serenity.reporting - Generated report ca3b49574a0e8709a8b22cd67d18c629b8cbaaa3411cf6c59dd8c6fec0bb15f6.html in 424 ms
 
-20:42:12.292 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET - As admin I have be able to get list user
+09:07:03.851 [pool-3-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:POST - As admin I have be able to create new user done
 
-20:42:12.292 [pool-3-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@8df3dfc: Generating report for test outcome: User:GET - As admin I have be able to get list user
+09:07:03.858 [pool-3-thread-2] DEBUG serenity.reporting - Generated report ea8c4d599280758bd9353d9b1a9bcd7b1400497a7af18e729f0004108665bfbe.html in 431 ms
 
-20:42:12.292 [pool-3-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:POST - As admin I have be able to create new user
+09:07:03.858 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET - As admin I have be able to get list user done
 
-20:42:12.292 [pool-3-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@8df3dfc: Generating report for test outcome: User:POST - As admin I have be able to create new user
+09:07:03.858 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
 
-20:42:12.293 [pool-3-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:PUT - As admin i have be able to update existing user
+09:07:03.858 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 1035 ms
 
-20:42:12.293 [pool-3-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:DELETE - As admin i have be able to delete existing user
+09:07:04.074 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/User.feature
 
-20:42:12.293 [pool-3-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@8df3dfc: Generating report for test outcome: User:PUT - As admin i have be able to update existing user
 
-20:42:12.293 [pool-3-thread-5] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@8df3dfc: Generating report for test outcome: User:DELETE - As admin i have be able to delete existing user
-
-20:42:12.293 [pool-3-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET Negative Case - As admin user have be able to get list user, but can't be access
-
-20:42:12.293 [pool-3-thread-6] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@8df3dfc: Generating report for test outcome: User:GET Negative Case - As admin user have be able to get list user, but can't be access
-
-20:42:12.293 [pool-3-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:Get Negative Case - As admin user have be able to get detail user, but can't be access
-
-20:42:12.293 [pool-3-thread-7] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@8df3dfc: Generating report for test outcome: User:Get Negative Case - As admin user have be able to get detail user, but can't be access
-
-20:42:12.293 [pool-3-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:Post Negative Case - As admin user have be able to submit post user with url invalid, shouldn't be access
-
-20:42:12.293 [pool-3-thread-8] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@8df3dfc: Generating report for test outcome: User:Post Negative Case - As admin user have be able to submit post user with url invalid, shouldn't be access
-
-20:42:12.294 [pool-3-thread-9] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:Put Negative Case - As admin user have be able to update put user with id not found, shouldn't be access
-
-20:42:12.294 [pool-3-thread-9] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@8df3dfc: Generating report for test outcome: User:Put Negative Case - As admin user have be able to update put user with id not found, shouldn't be access
-
-20:42:12.294 [pool-3-thread-10] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:Delete Negative Case - As admin user have be able to delete user with with url invalid, shouldn't be access
-
-20:42:12.294 [pool-3-thread-10] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@8df3dfc: Generating report for test outcome: User:Delete Negative Case - As admin user have be able to delete user with with url invalid, shouldn't be access
-
-20:42:12.406 [pool-3-thread-2] DEBUG serenity.reporting - Generating report in ea8c4d599280758bd9353d9b1a9bcd7b1400497a7af18e729f0004108665bfbe.html
-
-20:42:12.406 [pool-3-thread-3] DEBUG serenity.reporting - Generating report in ca3b49574a0e8709a8b22cd67d18c629b8cbaaa3411cf6c59dd8c6fec0bb15f6.html
-
-20:42:12.406 [pool-3-thread-6] DEBUG serenity.reporting - Generating report in a4877674256890b255f5baed1c18c1a7466061399b5d3d0a316af50835e903fa.html
-
-20:42:12.809 [pool-3-thread-3] DEBUG serenity.reporting - Generated report ca3b49574a0e8709a8b22cd67d18c629b8cbaaa3411cf6c59dd8c6fec0bb15f6.html in 403 ms
-
-20:42:12.809 [pool-3-thread-6] DEBUG serenity.reporting - Generated report a4877674256890b255f5baed1c18c1a7466061399b5d3d0a316af50835e903fa.html in 403 ms
-
-20:42:12.809 [pool-3-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:POST - As admin I have be able to create new user done
-
-20:42:12.809 [pool-3-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET Negative Case - As admin user have be able to get list user, but can't be access done
-
-20:42:12.816 [pool-3-thread-2] DEBUG serenity.reporting - Generated report ea8c4d599280758bd9353d9b1a9bcd7b1400497a7af18e729f0004108665bfbe.html in 410 ms
-
-20:42:12.816 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET - As admin I have be able to get list user done
-
-20:42:12.902 [pool-3-thread-10] DEBUG serenity.reporting - Generating report in 7e470ea6687403de6623d2787d395681e9493e680cbb9bf1cc3c6aeec4d41e68.html
-
-20:42:12.902 [pool-3-thread-4] DEBUG serenity.reporting - Generating report in a857aa067fbface075b009a4467332d49e5264a230119cd37ba15ea4f4a9ad35.html
-
-20:42:12.902 [pool-3-thread-8] DEBUG serenity.reporting - Generating report in 014eca3a9708e2cf140ebc1460de1a64975808e81671fab8cc48414f10aa3116.html
-
-20:42:12.902 [pool-3-thread-7] DEBUG serenity.reporting - Generating report in 2cccc885ed72ffc87d23136d6bfb6964b77086c451acf31050177695d5d8967f.html
-
-20:42:12.902 [pool-3-thread-5] DEBUG serenity.reporting - Generating report in 235a6186869cd19f19f97f33acc4f227ad47fdb2295409780ee28940954202ad.html
-
-20:42:12.902 [pool-3-thread-9] DEBUG serenity.reporting - Generating report in 6913d7677bcce94e610d3c19ae53b630e8917a20fa0e27a1e10fd357129a487c.html
-
-20:42:12.902 [pool-3-thread-1] DEBUG serenity.reporting - Generating report in 8c9bde6d0dbc4dadc4e5510aeaf6c435d15acae6bd58afcfbce04fb52b357cc6.html
-
-20:42:12.914 [pool-3-thread-5] DEBUG serenity.reporting - Generated report 235a6186869cd19f19f97f33acc4f227ad47fdb2295409780ee28940954202ad.html in 12 ms
-
-20:42:12.914 [pool-3-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:DELETE - As admin i have be able to delete existing user done
-
-20:42:12.915 [pool-3-thread-1] DEBUG serenity.reporting - Generated report 8c9bde6d0dbc4dadc4e5510aeaf6c435d15acae6bd58afcfbce04fb52b357cc6.html in 13 ms
-
-20:42:12.916 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:GET - As admin I have be able to get detail user done
-
-20:42:12.916 [pool-3-thread-4] DEBUG serenity.reporting - Generated report a857aa067fbface075b009a4467332d49e5264a230119cd37ba15ea4f4a9ad35.html in 14 ms
-
-20:42:12.916 [pool-3-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:PUT - As admin i have be able to update existing user done
-
-20:42:12.916 [pool-3-thread-10] DEBUG serenity.reporting - Generated report 7e470ea6687403de6623d2787d395681e9493e680cbb9bf1cc3c6aeec4d41e68.html in 14 ms
-
-20:42:12.916 [pool-3-thread-10] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:Delete Negative Case - As admin user have be able to delete user with with url invalid, shouldn't be access done
-
-20:42:12.916 [pool-3-thread-8] DEBUG serenity.reporting - Generated report 014eca3a9708e2cf140ebc1460de1a64975808e81671fab8cc48414f10aa3116.html in 14 ms
-
-20:42:12.917 [pool-3-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:Post Negative Case - As admin user have be able to submit post user with url invalid, shouldn't be access done
-
-20:42:12.917 [pool-3-thread-7] DEBUG serenity.reporting - Generated report 2cccc885ed72ffc87d23136d6bfb6964b77086c451acf31050177695d5d8967f.html in 15 ms
-
-20:42:12.917 [pool-3-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:Get Negative Case - As admin user have be able to get detail user, but can't be access done
-
-20:42:12.920 [pool-3-thread-9] DEBUG serenity.reporting - Generated report 6913d7677bcce94e610d3c19ae53b630e8917a20fa0e27a1e10fd357129a487c.html in 18 ms
-
-20:42:12.920 [pool-3-thread-9] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User:Put Negative Case - As admin user have be able to update put user with id not found, shouldn't be access done
-
-20:42:12.920 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
-
-20:42:12.920 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 628 ms
-
-20:42:13.074 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/User.feature
-
-20:42:13.076 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/user-failed.feature
-
-
-Scenario: GET Negative Case - As admin user have be able to get list user, but can't be access &amp#27;[90m# src/test/resources/api/user-failed.feature:6&amp#27;[0m
-20:42:07.786 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/user-failed.feature
-20:42:07.786 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/user-failed.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-20:42:07.788 [pool-2-thread-1] INFO  - 
+Scenario: GET - As admin I have be able to get detail user &amp#27;[90m# src/test/resources/api/User.feature:6&amp#27;[0m
+09:06:55.534 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/User.feature
+09:06:55.534 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/User.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+09:06:55.629 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-GET Negative Case - As admin user have be able to get list user, but can't be access(user;get-negative-case---as-admin-user-have-be-able-to-get-list-user--but-can-t-be-access)
+GET - As admin I have be able to get detail user(user;get---as-admin-i-have-be-able-to-get-detail-user)
 --------------------------------------------------------------------------------
-20:42:07.830 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.setGetEndpointsFailed - user set GET endpoints failed
-20:42:07.830 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user set GET endpoints failed
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser set GET endpoints failed&amp#27;[0m                                                          &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.setGetEndpointsFailed()&amp#27;[0m
-20:42:07.837 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.getHttpRequestFailed - user send GET HTTP request
-20:42:07.840 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetFailed.getHttpRequestFailed - user set GET endpoints failed
-20:42:07.841 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user set GET endpoints failed
-20:42:08.479 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user send GET HTTP request
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser send GET HTTP request&amp#27;[0m                                                              &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.getHttpRequestFailed()&amp#27;[0m
-20:42:08.482 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.HTTPresponse404 - user receive valid HTTP response code 404
-20:42:08.483 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user receive valid HTTP response code 404
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser receive valid HTTP response code 404&amp#27;[0m                                               &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.HTTPresponse404()&amp#27;[0m
-20:42:08.485 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.invalidData - user receive invalid data
-net.serenitybdd.rest.decorators.ResponseDecorated@6a41727a
-20:42:08.485 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user receive invalid data
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser receive invalid data&amp#27;[0m                                                                &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.invalidData()&amp#27;[0m
-20:42:08.487 [pool-2-thread-1] INFO  - 
+09:06:56.045 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.setGetApiEndpoints - I set GET api endpoints
+09:06:56.048 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set GET api endpoints&amp#27;[0m                            &amp#27;[90m# starter.stepdefinitions.UserSteps.setGetApiEndpoints()&amp#27;[0m
+09:06:56.061 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.sendGetHttpRequest - I send GET HTTP request
+09:06:58.396 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Get.sendGetHttpRequest - I set GET api endpoints
+09:06:58.396 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET api endpoints
+09:06:59.660 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send GET HTTP request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send GET HTTP request&amp#27;[0m                             &amp#27;[90m# starter.stepdefinitions.UserSteps.sendGetHttpRequest()&amp#27;[0m
+09:06:59.666 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.receiveValidHttpResponse - I receive valid HTTP response code 200
+09:06:59.698 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP response code 200&amp#27;[0m              &amp#27;[90m# starter.stepdefinitions.UserSteps.receiveValidHttpResponse()&amp#27;[0m
+09:06:59.702 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.receiveValidDataForDetailUser - I receive valid data for detail user
+09:07:00.249 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data for detail user
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive valid data for detail user&amp#27;[0m                 &amp#27;[90m# starter.stepdefinitions.UserSteps.receiveValidDataForDetailUser()&amp#27;[0m
+09:07:00.252 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
 
-GET Negative Case - As admin user have be able to get list user, but can't be access
+GET - As admin I have be able to get detail user
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Get Negative Case - As admin user have be able to get detail user, but can&apos;t be access" classname="User #2" time="0.671">
+  <testcase name="GET - As admin I have be able to get list user" classname="User" time="0.277">
     <system-out><![CDATA[
-Scenario: Get Negative Case - As admin user have be able to get detail user, but can't be access &amp#27;[90m# src/test/resources/api/user-failed.feature:12&amp#27;[0m
-20:42:08.491 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/user-failed.feature
-20:42:08.491 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/user-failed.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-20:42:08.492 [pool-2-thread-1] INFO  - 
+Scenario: GET - As admin I have be able to get list user &amp#27;[90m# src/test/resources/api/User.feature:12&amp#27;[0m
+09:07:00.262 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/User.feature
+09:07:00.262 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/User.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+09:07:00.266 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-Get Negative Case - As admin user have be able to get detail user, but can't be access(user;get-negative-case---as-admin-user-have-be-able-to-get-detail-user--but-can-t-be-access)
+GET - As admin I have be able to get list user(user;get---as-admin-i-have-be-able-to-get-list-user)
 --------------------------------------------------------------------------------
-20:42:08.501 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.setGetDetailIDEndpoint - user set GET endpoints get data with id is failed
-20:42:08.501 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user set GET endpoints get data with id is failed
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser set GET endpoints get data with id is failed&amp#27;[0m                                        &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.setGetDetailIDEndpoint()&amp#27;[0m
-20:42:08.504 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.getHttpRequestDetailIDFailed - user send GET HTTP request is failed
-20:42:08.505 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetFailedDetailID.getHttpDetailIdRequestFailed - user set GET endpoints get data with id is failed
-20:42:08.506 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user set GET endpoints get data with id is failed
-20:42:09.150 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user send GET HTTP request is failed
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser send GET HTTP request is failed&amp#27;[0m                                                      &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.getHttpRequestDetailIDFailed()&amp#27;[0m
-20:42:09.153 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.HttpResponseDetailID404 - user receive valid HTTP response code 404 is failed
-20:42:09.153 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user receive valid HTTP response code 404 is failed
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser receive valid HTTP response code 404 is failed&amp#27;[0m                                       &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.HttpResponseDetailID404()&amp#27;[0m
-20:42:09.155 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.invalidDataGetDetail - user receive invalid data is failed
-net.serenitybdd.rest.decorators.ResponseDecorated@68b3762e
-20:42:09.156 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user receive invalid data is failed
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser receive invalid data is failed&amp#27;[0m                                                        &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.invalidDataGetDetail()&amp#27;[0m
-20:42:09.157 [pool-2-thread-1] INFO  - 
+09:07:00.278 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.setApiEndpointGetList - I set GET api endpoints list
+09:07:00.278 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET api endpoints list
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set GET api endpoints list&amp#27;[0m                     &amp#27;[90m# starter.stepdefinitions.UserSteps.setApiEndpointGetList()&amp#27;[0m
+09:07:00.281 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.sendGetListHttpRequest - I send GET HTTP request list
+09:07:00.282 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetList.sendGetListHttpRequest - I set GET api endpoints list
+09:07:00.283 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET api endpoints list
+09:07:00.435 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send GET HTTP request list
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send GET HTTP request list&amp#27;[0m                      &amp#27;[90m# starter.stepdefinitions.UserSteps.sendGetListHttpRequest()&amp#27;[0m
+09:07:00.438 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.validateListHttpResponseCode200 - I receive valid HTTP response code 200 list
+09:07:00.439 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200 list
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP response code 200 list&amp#27;[0m       &amp#27;[90m# starter.stepdefinitions.UserSteps.validateListHttpResponseCode200()&amp#27;[0m
+09:07:00.442 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.validateDataListUser - I receive valid data for list user
+09:07:00.530 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data for list user
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive valid data for list user&amp#27;[0m                 &amp#27;[90m# starter.stepdefinitions.UserSteps.validateDataListUser()&amp#27;[0m
+09:07:00.533 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
 
-Get Negative Case - As admin user have be able to get detail user, but can't be access
+GET - As admin I have be able to get list user
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Post Negative Case - As admin user have be able to submit post user with url invalid, shouldn&apos;t be access" classname="User #2" time="0.678">
+  <testcase name="POST - As admin I have be able to create new user" classname="User" time="0.749">
     <system-out><![CDATA[
-Scenario: Post Negative Case - As admin user have be able to submit post user with url invalid, shouldn't be access &amp#27;[90m# src/test/resources/api/user-failed.feature:18&amp#27;[0m
-20:42:09.161 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/user-failed.feature
-20:42:09.161 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/user-failed.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-20:42:09.162 [pool-2-thread-1] INFO  - 
+Scenario: POST - As admin I have be able to create new user &amp#27;[90m# src/test/resources/api/User.feature:18&amp#27;[0m
+09:07:00.538 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/User.feature
+09:07:00.538 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/User.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+09:07:00.540 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-Post Negative Case - As admin user have be able to submit post user with url invalid, shouldn't be access(user;post-negative-case---as-admin-user-have-be-able-to-submit-post-user-with-url-invalid--shouldn-t-be-access)
+POST - As admin I have be able to create new user(user;post---as-admin-i-have-be-able-to-create-new-user)
 --------------------------------------------------------------------------------
-20:42:09.169 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.setPostRequestInvalidUrl - user set POST endpoints invalid submit data is failed
-20:42:09.170 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user set POST endpoints invalid submit data is failed
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser set POST endpoints invalid submit data is failed&amp#27;[0m                                                       &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.setPostRequestInvalidUrl()&amp#27;[0m
-20:42:09.172 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.getHTTPRequestSubmitData - user send POST HTTP request submit data is failed
-20:42:09.173 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostFailed.sendPostData - user set POST endpoints invalid submit data is failed
-20:42:09.173 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user set POST endpoints invalid submit data is failed
-20:42:09.802 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user send POST HTTP request submit data is failed
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser send POST HTTP request submit data is failed&amp#27;[0m                                                            &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.getHTTPRequestSubmitData()&amp#27;[0m
-20:42:09.805 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.getHttprequestSubmitFailed - user receive valid data submit post HTTP response code 404 is failed
-20:42:09.806 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user receive valid data submit post HTTP response code 404 is failed
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser receive valid data submit post HTTP response code 404 is failed&amp#27;[0m                                         &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.getHttprequestSubmitFailed()&amp#27;[0m
-20:42:09.809 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.responseBodyEmpty - user receive invalid response body is failed
-20:42:09.833 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user receive invalid response body is failed
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser receive invalid response body should be failed&amp#27;[0m                                                           &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.responseBodyEmpty()&amp#27;[0m
-20:42:09.835 [pool-2-thread-1] INFO  - 
+09:07:00.551 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.setPostApiEndpoints - I set POST api endpoints
+09:07:00.551 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set POST api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set POST api endpoints&amp#27;[0m                            &amp#27;[90m# starter.stepdefinitions.UserSteps.setPostApiEndpoints()&amp#27;[0m
+09:07:00.553 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.sendPostHttpRequest - I send POST HTTP request
+09:07:00.560 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Post.sendPostHttpRequest - I set POST api endpoints
+09:07:00.560 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set POST api endpoints
+09:07:01.244 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send POST HTTP request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send POST HTTP request&amp#27;[0m                             &amp#27;[90m# starter.stepdefinitions.UserSteps.sendPostHttpRequest()&amp#27;[0m
+09:07:01.247 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.receiveValidHttp201 - I receive valid HTTP response code 201
+09:07:01.248 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 201
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP response code 201&amp#27;[0m               &amp#27;[90m# starter.stepdefinitions.UserSteps.receiveValidHttp201()&amp#27;[0m
+09:07:01.251 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.validateDataNewUser - I receive valid data for new user
+09:07:01.280 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data for new user
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive valid data for new user&amp#27;[0m                     &amp#27;[90m# starter.stepdefinitions.UserSteps.validateDataNewUser()&amp#27;[0m
+09:07:01.282 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
 
-Post Negative Case - As admin user have be able to submit post user with url invalid, shouldn't be access
+POST - As admin I have be able to create new user
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Put Negative Case - As admin user have be able to update put user with id not found, shouldn&apos;t be access #1" classname="User #2" time="0.955">
+  <testcase name="PUT - As admin i have be able to update existing user" classname="User" time="0.695">
     <system-out><![CDATA[
-Scenario: Put Negative Case - As admin user have be able to update put user with id not found, shouldn't be access &amp#27;[90m# src/test/resources/api/user-failed.feature:24&amp#27;[0m
-20:42:09.840 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/user-failed.feature
-20:42:09.840 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/user-failed.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-20:42:09.842 [pool-2-thread-1] INFO  - 
+Scenario: PUT - As admin i have be able to update existing user &amp#27;[90m# src/test/resources/api/User.feature:24&amp#27;[0m
+09:07:01.287 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/User.feature
+09:07:01.287 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/User.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+09:07:01.288 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-Put Negative Case - As admin user have be able to update put user with id not found, shouldn't be access(user;put-negative-case---as-admin-user-have-be-able-to-update-put-user-with-id-not-found--shouldn-t-be-access)
+PUT - As admin i have be able to update existing user(user;put---as-admin-i-have-be-able-to-update-existing-user)
 --------------------------------------------------------------------------------
-20:42:09.850 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.userIdPutNotFound - user set PUT endpoints invalid userid not found is failed
-20:42:09.850 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user set PUT endpoints invalid userid not found is failed
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser set PUT endpoints invalid userid not found is failed&amp#27;[0m                                                  &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.userIdPutNotFound()&amp#27;[0m
-20:42:09.852 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.sendUserPutIdNotFound - user send PUT HTTP request update userid not found is failed
-20:42:09.853 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PutFailed.sendPutUserIdNotFound - user set PUT endpoints invalid userid not found is failed
-20:42:09.853 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user set PUT endpoints invalid userid not found is failed
-20:42:10.785 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user send PUT HTTP request update userid not found is failed
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser send PUT HTTP request update userid not found is failed&amp#27;[0m                                                &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.sendUserPutIdNotFound()&amp#27;[0m
-20:42:10.787 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.getHttpRequest500 - user receive internal server error HTTP response code 500 is failed
-20:42:10.788 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user receive internal server error HTTP response code 500 is failed
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser receive internal server error HTTP response code 500 is failed&amp#27;[0m                                         &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.getHttpRequest500()&amp#27;[0m
-20:42:10.790 [pool-2-thread-1] INFO  - 
+09:07:01.298 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.setPutApiEndpoint - I set PUT api endpoints
+09:07:01.298 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set PUT api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set PUT api endpoints&amp#27;[0m                                 &amp#27;[90m# starter.stepdefinitions.UserSteps.setPutApiEndpoint()&amp#27;[0m
+09:07:01.301 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.sendPutHttpRequest - I send PUT HTTP request
+09:07:01.303 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Put.sendPutHttpRequest - I set PUT api endpoints
+09:07:01.303 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set PUT api endpoints
+09:07:01.933 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send PUT HTTP request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send PUT HTTP request&amp#27;[0m                                  &amp#27;[90m# starter.stepdefinitions.UserSteps.sendPutHttpRequest()&amp#27;[0m
+09:07:01.937 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.getresponsePut200 - I receive valid PUT HTTP response code 200
+09:07:01.938 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid PUT HTTP response code 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid PUT HTTP response code 200&amp#27;[0m               &amp#27;[90m# starter.stepdefinitions.UserSteps.getresponsePut200()&amp#27;[0m
+09:07:01.941 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.validateUpdateUser - I receive valid data for updated user
+09:07:01.975 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data for updated user
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive valid data for updated user&amp#27;[0m                     &amp#27;[90m# starter.stepdefinitions.UserSteps.validateUpdateUser()&amp#27;[0m
+09:07:01.977 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
 
-Put Negative Case - As admin user have be able to update put user with id not found, shouldn't be access
+PUT - As admin i have be able to update existing user
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Put Negative Case - As admin user have be able to update put user with id not found, shouldn&apos;t be access #2" classname="User #2" time="0.66">
+  <testcase name="DELETE - As admin i have be able to delete existing user" classname="User" time="0.672">
     <system-out><![CDATA[
-Scenario: Put Negative Case - As admin user have be able to update put user with id not found, shouldn't be access &amp#27;[90m# src/test/resources/api/user-failed.feature:29&amp#27;[0m
-20:42:10.794 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/user-failed.feature
-20:42:10.794 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/user-failed.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-20:42:10.801 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.userIdPutNotFound - user set PUT endpoints invalid userid not found is failed
-20:42:10.801 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user set PUT endpoints invalid userid not found is failed
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser set PUT endpoints invalid userid not found is failed&amp#27;[0m                                                  &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.userIdPutNotFound()&amp#27;[0m
-20:42:10.803 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.sendUserPutIdNotFound - user send PUT HTTP request update userid not found is failed
-20:42:10.804 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PutFailed.sendPutUserIdNotFound - user set PUT endpoints invalid userid not found is failed
-20:42:10.804 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user set PUT endpoints invalid userid not found is failed
-20:42:11.446 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user send PUT HTTP request update userid not found is failed
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser send PUT HTTP request update userid not found is failed&amp#27;[0m                                                &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.sendUserPutIdNotFound()&amp#27;[0m
-20:42:11.449 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.getHttpRequest500 - user receive internal server error HTTP response code 500 is failed
-20:42:11.449 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user receive internal server error HTTP response code 500 is failed
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser receive internal server error HTTP response code 500 is failed&amp#27;[0m                                         &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.getHttpRequest500()&amp#27;[0m
-20:42:11.450 [pool-2-thread-1] INFO  - 
-  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
- |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
-   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
-   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
-
-Put Negative Case - As admin user have be able to update put user with id not found, shouldn't be access
-----------------------------------------------------------------------
-]]></system-out>
-  </testcase>
-  <testcase name="Delete Negative Case - As admin user have be able to delete user with with url invalid, shouldn&apos;t be access" classname="User #2" time="0.683">
-    <system-out><![CDATA[
-Scenario: Delete Negative Case - As admin user have be able to delete user with with url invalid, shouldn't be access &amp#27;[90m# src/test/resources/api/user-failed.feature:34&amp#27;[0m
-20:42:11.453 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/user-failed.feature
-20:42:11.454 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/user-failed.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-20:42:11.455 [pool-2-thread-1] INFO  - 
+Scenario: DELETE - As admin i have be able to delete existing user &amp#27;[90m# src/test/resources/api/User.feature:30&amp#27;[0m
+09:07:01.981 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/User.feature
+09:07:01.982 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Downloads/alterra-restAssured/src/test/resources/api/User.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+09:07:01.983 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-Delete Negative Case - As admin user have be able to delete user with with url invalid, shouldn't be access(user;delete-negative-case---as-admin-user-have-be-able-to-delete-user-with-with-url-invalid--shouldn-t-be-access)
+DELETE - As admin i have be able to delete existing user(user;delete---as-admin-i-have-be-able-to-delete-existing-user)
 --------------------------------------------------------------------------------
-20:42:11.461 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.setDeleteInvalidUrl - user set DELETE endpoints invalid url is failed
-20:42:11.461 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user set DELETE endpoints invalid url is failed
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser set DELETE endpoints invalid url is failed&amp#27;[0m                                                               &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.setDeleteInvalidUrl()&amp#27;[0m
-20:42:11.463 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.sendDeleteURLInvalid - user send DELETE HTTP request invalid url is failed
-20:42:11.471 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: DeleteFailed.sendDELETEInvalidURL - user set DELETE endpoints invalid url is failed
-20:42:11.471 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user set DELETE endpoints invalid url is failed
-20:42:12.128 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user send DELETE HTTP request invalid url is failed
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser send DELETE HTTP request invalid url is failed&amp#27;[0m                                                            &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.sendDeleteURLInvalid()&amp#27;[0m
-20:42:12.131 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserStepsFailed.getRequestCodeMethodDelete - user receive response HTTP response code 404 method DELETE is failed
-20:42:12.132 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: user receive response HTTP response code 404 method DELETE is failed
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser receive response HTTP response code 404 method DELETE is failed&amp#27;[0m                                           &amp#27;[90m# starter.stepdefinitions.UserStepsFailed.getRequestCodeMethodDelete()&amp#27;[0m
-20:42:12.134 [pool-2-thread-1] INFO  - 
+09:07:01.992 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.setDeleteApiEndpoints - I set DELETE api endpoints
+09:07:01.993 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set DELETE api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set DELETE api endpoints&amp#27;[0m                                 &amp#27;[90m# starter.stepdefinitions.UserSteps.setDeleteApiEndpoints()&amp#27;[0m
+09:07:01.995 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.sendDeleteApiEndpoints - I send DELETE HTTP request
+09:07:01.996 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Delete.sendDeleteHttpRequest - I set DELETE api endpoints
+09:07:01.996 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set DELETE api endpoints
+09:07:02.644 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send DELETE HTTP request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send DELETE HTTP request&amp#27;[0m                                  &amp#27;[90m# starter.stepdefinitions.UserSteps.sendDeleteApiEndpoints()&amp#27;[0m
+09:07:02.646 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.validateDeleteStatus200 - I receive valid delete HTTP response code 200
+09:07:02.647 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid delete HTTP response code 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid delete HTTP response code 200&amp#27;[0m               &amp#27;[90m# starter.stepdefinitions.UserSteps.validateDeleteStatus200()&amp#27;[0m
+09:07:02.649 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
 
-Delete Negative Case - As admin user have be able to delete user with with url invalid, shouldn't be access
+DELETE - As admin i have be able to delete existing user
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>

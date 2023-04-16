@@ -14,13 +14,13 @@ public class PutFailed {
 
     @Step("user set PUT endpoints invalid userid not found is failed")
     public String setPutUserIdNotFound() {
-        return url + "posts/100000";
+        return url + "posts/1000";
     }
 
     @Step("user send PUT HTTP request update userid not found is failed")
     public void sendPutUserIdNotFound() {
         JSONObject requestBody = new JSONObject();
-        requestBody.put("title", "Tinkerbell");
+        requestBody.put("title", "Jasmine Nabila");
         requestBody.put("body", "Adventure, Friendship, Love");
         requestBody.put("userId", "104");
         requestBody.put("id", "100");
