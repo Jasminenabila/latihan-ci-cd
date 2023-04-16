@@ -35,3 +35,8 @@ Feature: User
     Given user set DELETE endpoints invalid url is failed
     When user send DELETE HTTP request invalid url is failed
     Then user receive response HTTP response code 404 method DELETE is failed
+
+  Scenario: Delete Negative Case - As admin user have be able to delete user with with url invalid, shouldn't be access
+    Given user set PATCH endpoints invalid url is failed
+    When user send PATCH HTTP request invalid url is failed
+    Then user receive response HTTP response code 404 method PATCH is failed
